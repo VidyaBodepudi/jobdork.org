@@ -1,8 +1,8 @@
 # JobDork.org
 
-> A clean, warm, and privacy-first ATS job search engine that queries **Lever**, **Ashby**, and **Greenhouse** directly.
+> Search for jobs directly from the company pages. Not LinkedIn!
 
-Bypasses recruiter spam, ghost listings, and stale aggregator databases by constructing precision search engine dorks targeting authentic company career portals.
+Bypasses recruiter spam, ghost listings, and stale aggregator databases by constructing precision search engine dorks targeting authentic company career portals. <-- Isn't AI so neat. 
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/status-production--ready-emerald.svg)
