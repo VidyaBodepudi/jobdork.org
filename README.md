@@ -12,12 +12,14 @@ Bypasses recruiter spam, ghost listings, and stale aggregator databases by const
 
 ## ✨ Why JobDork?
 
+Why not? What have you got to lose? you're already here because job searching in the post-AI era I soul crushing. Might as well.
+
 Traditional job aggregators (LinkedIn, Indeed, ZipRecruiter) have become filled with:
 - **Ghost Listings**: Roles that were filled weeks ago or left active to collect resumes.
 - **Bot Floods**: Thousands of automated applications within hours of posting.
 - **Middleman Filters**: "Easy Apply" portals that don't always sync reliably with the company's internal ATS.
 
-**JobDork** searches the three primary modern tech ATS platforms directly:
+**JobDork** searches the three primary modern tech ATS platforms directly (jk not really we piggy back on dorks:
 1. **Ashby** (`jobs.ashbyhq.com`) — Dominant among modern AI, developer tools, and high-growth venture-backed teams (OpenAI, Linear, Cursor, Perplexity, Ramp).
 2. **Greenhouse** (`boards.greenhouse.io`, `job-boards.greenhouse.io`) — The industry gold standard for tech leaders and unicorns (Stripe, Airbnb, Figma, Datadog).
 3. **Lever** (`jobs.lever.co`) — Agile venture-backed engineering and product organizations.
@@ -25,6 +27,8 @@ Traditional job aggregators (LinkedIn, Indeed, ZipRecruiter) have become filled 
 ---
 
 ## 🚀 Features
+
+Look. IT does things!
 
 - **Multi-Role Querying**: Search for single roles or comma-separated titles (e.g. `Software Engineer, Full Stack`).
 - **Precision Timeframe Filters**: Filter by 24 hours, 3 days, 7 days, or 30 days to apply before roles are saturated.
@@ -36,34 +40,6 @@ Traditional job aggregators (LinkedIn, Indeed, ZipRecruiter) have become filled 
 - **Saved Searches & URL State**: Save your morning search routines to browser `localStorage` or share parameterized search links with colleagues.
 - **100% Client-Side & Private**: Zero tracking scripts, zero cookies, zero telemetry.
 
----
-
-## 📦 Cloudflare Pages Deployment
-
-This repository is built as pure static web assets with zero build dependencies.
-
-### Option 1: Deploy via Cloudflare Dashboard (Recommended)
-
-1. Push this repository to GitHub or GitLab.
-2. Log in to your [Cloudflare Dashboard](https://dash.cloudflare.com/) and navigate to **Workers & Pages** > **Create application** > **Pages** > **Connect to Git**.
-3. Select your `jobdork.org` repository.
-4. Set the build settings:
-   - **Framework preset**: `None`
-   - **Build command**: *(leave blank)*
-   - **Build output directory**: `/` (or root)
-5. Click **Save and Deploy**. Your site will be live across Cloudflare's global edge network in seconds!
-
-### Option 2: Deploy via Wrangler CLI
-
-```bash
-# Install Wrangler if not already installed
-npm install -g wrangler
-
-# Deploy to Cloudflare Pages
-wrangler pages deploy . --project-name jobdork
-```
-
----
 
 ## 🛠️ Local Development
 
